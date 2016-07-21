@@ -4,4 +4,5 @@ $server = stream_socket_server("{$protocol}://{$server_ip}:{$port}", $ErrNo, $Er
 while($client = stream_socket_accept($server, -1))
 {
     echo "New client\n";
+
 }
